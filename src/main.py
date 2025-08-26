@@ -8,7 +8,7 @@ from hello_world.hello import get_message
 app = FastAPI(title="Hello World API")
 
 @app.get("/")
-def read_root(name: str = "World"):
+def read_root(name: str = "World is one"):
     """
     Root endpoint that returns a hello message.
     """
